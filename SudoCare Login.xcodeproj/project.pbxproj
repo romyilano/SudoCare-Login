@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2EAEEE1B82EE7200802AE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2EAEED1B82EE7200802AE9 /* main.m */; };
+		EC2EAEF11B82EE7200802AE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2EAEF01B82EE7200802AE9 /* AppDelegate.m */; };
+		EC2EAEF41B82EE7200802AE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2EAEF31B82EE7200802AE9 /* ViewController.m */; };
+		EC2EAEF71B82EE7200802AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2EAEF51B82EE7200802AE9 /* Main.storyboard */; };
+		EC2EAEF91B82EE7200802AE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2EAEF81B82EE7200802AE9 /* Images.xcassets */; };
+		EC2EAEFC1B82EE7200802AE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC2EAEFA1B82EE7200802AE9 /* LaunchScreen.xib */; };
+		EC2EAF081B82EE7200802AE9 /* SudoCare_LoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2EAF071B82EE7200802AE9 /* SudoCare_LoginTests.m */; };
+		EC2EAF121B82EE9500802AE9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EC2EAF111B82EE9500802AE9 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC2EAF021B82EE7200802AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2EAEE01B82EE7200802AE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2EAEE71B82EE7200802AE9;
+			remoteInfo = "SudoCare Login";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC2EAEE81B82EE7200802AE9 /* SudoCare Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SudoCare Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2EAEEC1B82EE7200802AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2EAEED1B82EE7200802AE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC2EAEEF1B82EE7200802AE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC2EAEF01B82EE7200802AE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC2EAEF21B82EE7200802AE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC2EAEF31B82EE7200802AE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC2EAEF61B82EE7200802AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC2EAEF81B82EE7200802AE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC2EAEFB1B82EE7200802AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC2EAF011B82EE7200802AE9 /* SudoCare LoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SudoCare LoginTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2EAF061B82EE7200802AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2EAF071B82EE7200802AE9 /* SudoCare_LoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SudoCare_LoginTests.m; sourceTree = "<group>"; };
+		EC2EAF111B82EE9500802AE9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2EAEE51B82EE7200802AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2EAEFE1B82EE7200802AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC2EAEDF1B82EE7200802AE9 = {
+			isa = PBXGroup;
+			children = (
+				EC2EAF111B82EE9500802AE9 /* README.md */,
+				EC2EAEEA1B82EE7200802AE9 /* SudoCare Login */,
+				EC2EAF041B82EE7200802AE9 /* SudoCare LoginTests */,
+				EC2EAEE91B82EE7200802AE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2EAEE91B82EE7200802AE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2EAEE81B82EE7200802AE9 /* SudoCare Login.app */,
+				EC2EAF011B82EE7200802AE9 /* SudoCare LoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2EAEEA1B82EE7200802AE9 /* SudoCare Login */ = {
+			isa = PBXGroup;
+			children = (
+				EC2EAEEF1B82EE7200802AE9 /* AppDelegate.h */,
+				EC2EAEF01B82EE7200802AE9 /* AppDelegate.m */,
+				EC2EAEF21B82EE7200802AE9 /* ViewController.h */,
+				EC2EAEF31B82EE7200802AE9 /* ViewController.m */,
+				EC2EAEF51B82EE7200802AE9 /* Main.storyboard */,
+				EC2EAEF81B82EE7200802AE9 /* Images.xcassets */,
+				EC2EAEFA1B82EE7200802AE9 /* LaunchScreen.xib */,
+				EC2EAEEB1B82EE7200802AE9 /* Supporting Files */,
+			);
+			path = "SudoCare Login";
+			sourceTree = "<group>";
+		};
+		EC2EAEEB1B82EE7200802AE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC2EAEEC1B82EE7200802AE9 /* Info.plist */,
+				EC2EAEED1B82EE7200802AE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC2EAF041B82EE7200802AE9 /* SudoCare LoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2EAF071B82EE7200802AE9 /* SudoCare_LoginTests.m */,
+				EC2EAF051B82EE7200802AE9 /* Supporting Files */,
+			);
+			path = "SudoCare LoginTests";
+			sourceTree = "<group>";
+		};
+		EC2EAF051B82EE7200802AE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC2EAF061B82EE7200802AE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2EAEE71B82EE7200802AE9 /* SudoCare Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2EAF0B1B82EE7200802AE9 /* Build configuration list for PBXNativeTarget "SudoCare Login" */;
+			buildPhases = (
+				EC2EAEE41B82EE7200802AE9 /* Sources */,
+				EC2EAEE51B82EE7200802AE9 /* Frameworks */,
+				EC2EAEE61B82EE7200802AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SudoCare Login";
+			productName = "SudoCare Login";
+			productReference = EC2EAEE81B82EE7200802AE9 /* SudoCare Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC2EAF001B82EE7200802AE9 /* SudoCare LoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2EAF0E1B82EE7200802AE9 /* Build configuration list for PBXNativeTarget "SudoCare LoginTests" */;
+			buildPhases = (
+				EC2EAEFD1B82EE7200802AE9 /* Sources */,
+				EC2EAEFE1B82EE7200802AE9 /* Frameworks */,
+				EC2EAEFF1B82EE7200802AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2EAF031B82EE7200802AE9 /* PBXTargetDependency */,
+			);
+			name = "SudoCare LoginTests";
+			productName = "SudoCare LoginTests";
+			productReference = EC2EAF011B82EE7200802AE9 /* SudoCare LoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2EAEE01B82EE7200802AE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Romy;
+				TargetAttributes = {
+					EC2EAEE71B82EE7200802AE9 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					EC2EAF001B82EE7200802AE9 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = EC2EAEE71B82EE7200802AE9;
+					};
+				};
+			};
+			buildConfigurationList = EC2EAEE31B82EE7200802AE9 /* Build configuration list for PBXProject "SudoCare Login" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC2EAEDF1B82EE7200802AE9;
+			productRefGroup = EC2EAEE91B82EE7200802AE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2EAEE71B82EE7200802AE9 /* SudoCare Login */,
+				EC2EAF001B82EE7200802AE9 /* SudoCare LoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2EAEE61B82EE7200802AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2EAEF71B82EE7200802AE9 /* Main.storyboard in Resources */,
+				EC2EAEFC1B82EE7200802AE9 /* LaunchScreen.xib in Resources */,
+				EC2EAEF91B82EE7200802AE9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2EAEFF1B82EE7200802AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2EAEE41B82EE7200802AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2EAEF41B82EE7200802AE9 /* ViewController.m in Sources */,
+				EC2EAEF11B82EE7200802AE9 /* AppDelegate.m in Sources */,
+				EC2EAF121B82EE9500802AE9 /* README.md in Sources */,
+				EC2EAEEE1B82EE7200802AE9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2EAEFD1B82EE7200802AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2EAF081B82EE7200802AE9 /* SudoCare_LoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC2EAF031B82EE7200802AE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2EAEE71B82EE7200802AE9 /* SudoCare Login */;
+			targetProxy = EC2EAF021B82EE7200802AE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC2EAEF51B82EE7200802AE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2EAEF61B82EE7200802AE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC2EAEFA1B82EE7200802AE9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2EAEFB1B82EE7200802AE9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC2EAF091B82EE7200802AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC2EAF0A1B82EE7200802AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2EAF0C1B82EE7200802AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SudoCare Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC2EAF0D1B82EE7200802AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SudoCare Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC2EAF0F1B82EE7200802AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SudoCare LoginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SudoCare Login.app/SudoCare Login";
+			};
+			name = Debug;
+		};
+		EC2EAF101B82EE7200802AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SudoCare LoginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SudoCare Login.app/SudoCare Login";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2EAEE31B82EE7200802AE9 /* Build configuration list for PBXProject "SudoCare Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2EAF091B82EE7200802AE9 /* Debug */,
+				EC2EAF0A1B82EE7200802AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2EAF0B1B82EE7200802AE9 /* Build configuration list for PBXNativeTarget "SudoCare Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2EAF0C1B82EE7200802AE9 /* Debug */,
+				EC2EAF0D1B82EE7200802AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC2EAF0E1B82EE7200802AE9 /* Build configuration list for PBXNativeTarget "SudoCare LoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2EAF0F1B82EE7200802AE9 /* Debug */,
+				EC2EAF101B82EE7200802AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC2EAEE01B82EE7200802AE9 /* Project object */;
+}
